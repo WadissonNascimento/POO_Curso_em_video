@@ -1,34 +1,3 @@
-# Os 4 pilares da programação orientada a objetos
-
-## Abstração
-É a pratica de ignorar o irrelevante e se focar estritamente no essencial.
-
-### Principais vantagens
-- Maior legibilidade;
-- Padronização;
-- Simplificação;
-- Segurança.
-
-Existe abstração de dados, que acontece quando ignoramos informações desnecessárias para o escopo do projeto.
-
-Existe a abstração de processos, quando não precisamos saber como um método faz seu trabalho, apenas sabe que ele existe pela interface.
-
-Classe abstrata = classe que serve de base para as classes filhas, ela não vai virar um objeto mas serve de base para as subclasses que vão.
-
-Método concreto = fazer_aniversario()
-
-Método abstrato = estudar() {abstract}
-
-Ao Definir um conjunto de métodos abstratos, dizemos que estamos criando a interface pública da classe.
-
-Uma classe abstrata pode ter métodos abstratos que deverão ser obrigatoriamente implementados nas subclasses.
-
-Mas uma classe abstrata pode ter métodos concretos se eles funcionarem da mesma maneira para todas as subclasses(DRY).
-
-ABC = Abstract Base Classes.
-
-## Encapsulamento
-
 ## Herança
 É um relacionamento entre itens gerais(ancestrais) e tipos mais especificos(descendentes) desses itens que herdam  atributos e métodos dos niveis superiores.
 
@@ -111,5 +80,3 @@ f1.fazer_aniversario()
 f1.bater_ponto()
 inspect(f1)
 ```
-
-##Polimorfismo 
